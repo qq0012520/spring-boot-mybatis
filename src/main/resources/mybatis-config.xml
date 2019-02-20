@@ -6,6 +6,7 @@
         <package name="com.example.mybatisintegration.domain"/>
     </typeAliases>
     <mappers>
-        <mapper resource="mapper/CityMapper.xml"/>
+        <package name="com.example.mybatisintegration.mapper"/>
+        <!--<mapper resource="com/example/mybatisintegration/mapper/CityMapper.xml/"/>-->
     </mappers>
 </configuration>
